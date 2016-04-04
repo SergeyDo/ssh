@@ -1,0 +1,9 @@
+---
+
+builds:
+  docker_image_name: sergey/ssh:latest
+
+outputs:
+  - type: s3
+    bucket: some-random-bucket
+    key: sergey.ssh.latest.tar.gz
